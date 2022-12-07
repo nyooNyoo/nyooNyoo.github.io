@@ -1,15 +1,16 @@
 body {
     font-family: monospace;
-    background-color: #282930;
 }
 
 header {
     text-align: center; 
     margin:15px 0px 40px 0px;
+    color: white;
 }
 
 header p{
     font-size: 18px;
+    color: white;
 }
 
 #alertsContainer{
