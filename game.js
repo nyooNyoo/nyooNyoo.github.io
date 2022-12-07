@@ -25,7 +25,7 @@ Game.prototype.generateComputerMove = function() {
     //TODO: record time
 
     var deferred = jQuery.Deferred();	
-	var depth = 6;
+	var depth = Config.AI_DEPTH;
     var board = new CanvasBoard(game.Board.matrixBoard, game);
 
 	game.worker.addEventListener('message', function handler(e) {
