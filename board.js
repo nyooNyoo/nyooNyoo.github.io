@@ -27,7 +27,7 @@ CanvasBoard.prototype.initBoard = function () {
 	_.forEach(board.matrixBoard, function (row, rowIndex) {
 		_.forEach(row, function (column, columnIndex) {
 			var checkerSpace = board.checkerSpaceContainer.addChild(new createjs.Shape()).set({ name: "cs-" + rowIndex + columnIndex, x: 100 + (50 * columnIndex), y: 50 + (50 * rowIndex) });
-			checkerSpace.graphics.beginFill("#FFFF").beginStroke("grey").drawCircle(0, 0, 23);
+			checkerSpace.graphics.beginFill("#222").beginStroke("grey").drawCircle(0, 0, 23);
 			checkerSpace.cursor = "pointer";
 			checkerSpace.addEventListener("click", (board.currentgame.placeHumanMove).bind(board.currentgame) );
 		});
