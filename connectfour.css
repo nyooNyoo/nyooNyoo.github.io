@@ -1,6 +1,6 @@
 body {
     font-family: monospace;
-    background-color: #222222;
+    background-color: #222222 !important;
 }
 
 header {
