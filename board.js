@@ -20,7 +20,7 @@ CanvasBoard.prototype.initBoard = function () {
 	
 	//Draw board
 	var boardBackground = board.stage.addChild(new createjs.Shape()).set({ name: "background", x: 0, y: 0 });
-	boardBackground.graphics.beginFill("#0277BD").beginStroke("black").drawRect(60, 10, 760, 660);
+	boardBackground.graphics.beginFill("#0277BD").beginStroke("black").drawRect(60, 10, 380, 330);
 
 	//Draw checkers
 	board.checkerSpaceContainer = board.stage.addChild(new createjs.Container()).set({ name: "board" });
